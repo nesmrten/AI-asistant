@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Medea</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>Medea</h1>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message">
+                    <p>Hi! I am Medea, how can I assist you?</p>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button type="submit" id="send-button" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #2e6bb1;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 16px;
+}
+
+button:hover {
+  background-color: #2c5282;
+}
+
+.message-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.bot-message {
+  display: inline-block;
+  background-color: #2e6bb1;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 16px;
+  margin-right: 10px;
+}
+
+.user-message {
+  display: inline-block;
+  background-color: #d1d5db;
+  color: #000;
+  border-radius: 20px;
+  padding: 10px 16px;
+  margin-left: 10px;
+}

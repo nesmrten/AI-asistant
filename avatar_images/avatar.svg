@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .avatar-background {
+      fill: #fff;
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .hair {
+      fill: #ffebcd;
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .face {
+      fill: #ffe0bd;
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .mouth {
+      fill: #ffb6c1;
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .eyes {
+      fill: #fff;
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .iris {
+      fill: #00ffff;
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .pupil {
+      fill: #000;
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .lashes {
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .eyebrows {
+      stroke: #000;
+      stroke-width: 10;
+    }
+    .accessory {
+      stroke: #000;
+      stroke-width: 10;
+    }
+  </style>
+  <rect class="avatar-background" width="1200" height="1200"/>
+  <path class="hair" d="M126,588c-7.4-9.9-7.4-24.1,0-34.1c16.8-22.4,42.1-35.9,70.1-35.9c28,0,53.3,13.5,70.1,35.9
+  	c7.4,9.9,7.4,24.1,0,34.1c-16.8,22.4-42.1,35.9-70.1,35.9C168.1,624.9,142.8,611.4,126,588z M502.8,499.1
+  	c-20.6-19.6-34.6-44.6-40
+
+
+
+Bekim Lutolli
+why are we using php?
+I'm sorry, but I don't recall mentioning the use of PHP in our conversation. We have been discussing the creation of an AI assistant using Python. Can you please clarify your question or provide more context?
+
+
+
+
+

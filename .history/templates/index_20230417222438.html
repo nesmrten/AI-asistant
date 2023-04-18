@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medea - Your Personal AI Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Medea - Your Personal AI Assistant</h1>
+        <form id="chat-form">
+            <div class="chat-box">
+                <div class="chat-area" id="chat-area"></div>
+            </div>
+            <div class="input-box">
+                <input type="text" name="message" id="message-input" placeholder="Type your message...">
+                <button type="submit" id="submit-button">Send</button>
+            </div>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

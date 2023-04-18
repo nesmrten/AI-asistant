@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medea - Your Personal Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <div class="chat-window">
+      <h1>Medea - Your Personal Chatbot</h1>
+      <div class="conversation-container"></div>
+      <div class="message-box">
+        <input type="text" id="msg" name="msg" placeholder="Type your message here..." autocomplete="off" />
+        <button id="send-btn" class="send-btn">Send</button>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

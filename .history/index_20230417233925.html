@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medea - Your AI Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body>
+    <h1>Medea - Your AI Assistant</h1>
+    <div class="input">
+      <form method="POST">
+        <input type="text" placeholder="Enter your message..." name="input">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    {% if input %}
+      <div class="input-message">
+        <p>You:</p>
+        <p>{{ input }}</p>
+      </div>
+    {% endif %}
+    {% if output %}
+      <div class="output-message">
+        <p>Medea:</p>
+        <p>{{ output }}</p>
+      </div>
+    {% endif %}
+  </body>
+</html>
